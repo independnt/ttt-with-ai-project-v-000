@@ -65,7 +65,8 @@ class Game
     turn
     if !over?
       turn
-    elsif over? 
+    elsif over?
+    end
   end
 
 end
