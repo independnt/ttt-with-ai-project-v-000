@@ -63,6 +63,9 @@ class Game
 
   def play
     turn
+    if !over?
+      turn
+    elsif over? 
   end
 
 end
